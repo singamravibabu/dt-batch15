@@ -99,3 +99,13 @@ csv.reader(file_object)
     - quotechar='"' -> specifies the character that's used to quote columsn\
     - delimiter=',' -> specifies the character that's used to separate fields
     - quoting=csv.QUOTE_MINIMAL -> specifies the quoting policy
+
+
+### Working with Binary files
+- Use `pickle` module to work with binary files.
+- The `pickle` module can be used to dump (write) an object like a list to a file, and to load (read) an object from a binary file.
+- The dump and load pickle methods
+    dump(object, bfile)
+    - Writes the specified object to the binary file.
+    load(bfile)
+    - Reads an object from the binary file.
