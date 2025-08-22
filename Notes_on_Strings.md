@@ -89,3 +89,40 @@ for char in string:
 15. center(width)
     Returns a centered string with spaces add to fill the width
 
+
+##### Finding a substring index (position) in a larger string
+```
+find(str[, strat][, end])
+```
+- Searches for the specified str and returns the index of the first occurances or -1 if te str isn't found.
+- The optiona start and end parameters let us set the staring and ending indexes for the search.
+
+##### Replace old string with new string
+```
+replace(old, new[, num])
+```
+
+- Returns a new string with occurances of the old substring replaced by the new substring.
+- The optiona third parameter allows us to specify the number of occurances to replace.
+
+
+#### Splitting the string
+- A delimiter is a character that's used to divide a string into multiple parts.
+```
+slit([delimiter][, num])
+```
+- Uses a delimiter to split a string into substrings.
+- By default, the delimier is any whitespace.
+- The second parameter lets us specify the number of occurances to replace.
+- Returns a list of substrings.
+
+
+##### Joining Strings
+- Lists and strings are sequences.
+- A string is a sequence of characters.
+- We can join a string using join() method.
+```
+str.join(sequence)
+```
+Joins the elements of a sequence into a string that uses the current string as a delimitter.
+
