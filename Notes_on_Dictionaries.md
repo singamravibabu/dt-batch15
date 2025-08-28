@@ -40,3 +40,38 @@
     dictionary_name.pop(key[, default_value])
 - Syntax for clear() method
     dictionary_name.clear()
+
+##### Looping through the keys of a dictionary
+- Syntax:
+    for key in dictionary_name:
+        print(key)
+
+    - Alternatively
+
+    for key in dictionary_name.keys():
+        print(key)
+
+##### Looping through the values of a dictionary
+- Syntax:
+    for value in dictionary_name.values():
+        print(value)
+
+##### Looping through the keys and values of a dictionary
+- Syntax:
+    for key, value in dictionary_name.items():
+        print(key, value)
+
+    for item in dictionary_name.items():
+        print(item)
+
+
+##### Converting between lists, tuples, and dictionaries
+- We can use the following three functions:
+    1. list()
+    2. tuple()
+    3. dict()
+
+##### Creating a dictionary of dictionaries
+- We can create a dictionary of dictionaries.
+- We can use two sets of brackets to access an item in an embedded dictionary or list.
+
